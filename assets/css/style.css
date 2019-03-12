@@ -105,7 +105,7 @@ footer {
 }
 
 
-
+/* CONTACT */
 
 .textBox{
     width: 745px;
@@ -129,6 +129,51 @@ footer {
 .form {
     margin-top: -15px;
 }
+
+
+/* PORTFOLIO/GALLERY */
+
+#ball-Project-image {
+    width: 30%;
+    height: 30%;
+}
+
+#penguin-Project-image {
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 30%;
+    height: 175px;
+}
+.ballLabel {
+    background-color: #3a4660;
+    color: #f1f0ee;
+    text-align: center;
+    vertical-align: middle;
+    width: 225px;
+    height: 45px;
+    position: absolute;
+    top: 206px;
+    line-height: 40px;
+}
+.penguinLabel {
+    background-color: #3a4660;
+    color: #f1f0ee;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    width: 225px;
+    height: 45px;
+    position: relative;
+    bottom: 83px;
+}
+
+
+
+
+
+
+
+
 
 
 
