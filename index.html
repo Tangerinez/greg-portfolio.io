@@ -1,45 +1,48 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
+  <title>Welcome to my website!</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
   <header>
-    <h1 class="title">Gregory Tang</h1>
+    <h1>Gregory Tang</h1>
   </header>
-    <nav>
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
-    <hr class="line1">
+    
+  <nav class="navBar">
+      <ul class="list">
+          <li class="navContent"><a href="#About" class="navLink">About</a></li>
+          <li class="navLine">|</li>
+          <li class="navContent"><a href="#Portfolio" class="navLink">Portfolio</a></li>
+          <li class="navLine">|</li>
+          <li class="navContent"><a href="#Contact" class="navLink">Contact</a></li>
+      </ul>
+  </nav>
   
-
-  <div class="bio-container"> 
-
-    <section id="main-bio" class="clearfix">
-
-      <h2 class="name">Gregory Tang</h2>
+  <section id="main-bio" class="clearfix">
+      <h2 class="name">About Me</h2>
       <hr class="line2">
-
-      <img id="bio-image" src="ProfilePic.jpg" width="200" height="200">
+      <img id="bio-image" src="ProfilePic.jpg">
 
         <p class="par1"> 
-            My name is Gregory Tang! I'm graduated from UC Berkeley last year and majored in Molecular and Cellular Biology. I have an interest in creating things through technology and aspire to one day found my own company.
+            My name is Gregory Tang! I graduated from UC Berkeley in Spring of 2019 and majored in Molecular and Cellular Biology. I have an interest in creating things through technology and aspire to one day found my own company. Currently, I am attending UC Berkeley's Full Stack Flex Bootcamp program, with the goal of becoming a self-sufficient coder and product designer.
         </p>
         <p class="par2">
-            Some of my interests are hiking, exercising, coding, gaming, and walking dogs. I live in San Francisco, and enjoy the rush of the city. I'm always looking to make new connections and meet new people, so feel free to just say hi to me!
+            Some of my interests include hiking, exercising, coding, gaming, and walking dogs. I live in San Francisco near Japantown, and enjoy the rush and bustle of the city. I'm always looking to make new connections and meet new people. Listening to others and learning what others have gone through to get where they are today always inspires me to work harder and venture out of my comfort zone! 
         </p>
-    </section>
+        <p class="par3">
+          I'm extremely interested in creating and managing a product through it's entire life cycle. The industry that I am passionate about is healthcare and wellness, although I am always curious and open to getting involved in anything that I can. I always have random ideas brewing in my head, so if you have any ideas or want to work on something together, just reach out to me!
+        </p>
+        <hr class="line3">
+        
+      </section>
 
-  </div>
-
+  <footer>
+      &copy Gregory Tang
+  </footer>
 </body>
 
 </html>
