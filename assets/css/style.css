@@ -1,3 +1,5 @@
+/* Shell + Contact elements */
+
 header {
     background-color: #f1f0ee;
     font-size: 16px;
@@ -48,11 +50,7 @@ a {
 li {
     float: left;
 }
-.clearfix::after {
-        content: "";
-        display: block;
-        clear: both;
-}
+
 section {
     width: 65%;
     margin: auto;
@@ -94,7 +92,7 @@ h1 {
     top: 8px;
     border-radius: 1px;
 }
-    .par1 .par2 {
+    .par1 .par2 .githubIndex {
     color: #3a4660;
 }
 footer {
@@ -103,8 +101,16 @@ footer {
     color: #f1f0ee;
     background-color: #3a4660;
 }
-
-
+.url-link {
+    font-size: 16px;
+    margin-left: -15px;
+}
+.url-link:hover {
+    color: rgb(21, 21, 192);
+}
+.LinkedinIndex {
+    margin-top: -18px;
+}
 /* CONTACT */
 
 .textBox{
@@ -114,7 +120,7 @@ footer {
 }
 
 .textBoxforMessage {
-    width: 745px;
+    width: 751px;
     height: 180px;
     margin-top: -15px;
 }
@@ -149,8 +155,8 @@ footer {
     color: #f1f0ee;
     text-align: center;
     vertical-align: middle;
-    width: 225px;
-    height: 45px;
+    width: 28.5%;
+    height: 7%;
     position: absolute;
     top: 206px;
     line-height: 40px;
@@ -161,11 +167,16 @@ footer {
     text-align: center;
     vertical-align: middle;
     line-height: 40px;
-    width: 225px;
-    height: 45px;
+    width: 30%;
+    height: 43px;
     position: relative;
     bottom: 83px;
 }
+
+
+
+
+
 
 
 
